@@ -1356,7 +1356,7 @@ button {
     width: 98%;
   }
   .search-icon {
-    right: 0;
+    display: none;
   }
   .checkout-list {
     justify-content: flex-end;
