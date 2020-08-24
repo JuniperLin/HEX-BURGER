@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>六角西餐廳-登入/註冊</title>
+    <link rel="shortcut icon" href="/img/Fast-Food.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="好吃的漢堡堡" />
+    <meta name="keywords" content="漢堡,六角漢堡,美式餐廳" />
+    <!-- Facebook OG:Tag -->
+    <meta property="og:title" content="六角西餐廳" />
+    <meta property="og:description" content="好吃的漢堡堡" />
+    <meta property="og:url" content="FB上的網址" />
+    <meta property="og:image" content="FB的圖片" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:title" content="六角西餐廳" />
+    <meta name="twitter:description" content="好吃的漢堡堡" />
+    <meta name="twitter:image" content="Twitter上的網址" />
+    <meta name="twitter:url" content="Twitter的圖片" />
+    <!-- IE兼容 -->
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <!-- 字型 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="/js/jquery-3.5.1.min.js"></script>
+    <script src="/js/all.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <div class="navbar">
+          <h1 class="logo">
+            <a href="/">六角西餐廳LOGO</a>
+          </h1>
+          <div class="toggle">
+            <div class="login-phone">
+              <a href="#"><i class="fas fa-user-circle"></i></a>
+            </div>
+          </div>
+          <ul class="nav-menu">
+            <li class="login-web">
+              <a href="#"><i class="fas fa-user-circle"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="banner">
+          <div class="banner-inner">
+            <h2>咬一口就無法忘懷的漢堡</h2>
+            <p>七夕絕對無法錯過的好滋味</p>
+            <p>六角大漢堡</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="all-container">
+          <div class="login_form-container">
+            <div class="signin-signup">
+              <form action="" class="sign-in-form">
+                <h2 class="login_title">登入</h2>
+                <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="會員帳號" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="密碼" />
+                </div>
+                <input type="submit" value="登入" class="login_btn solid" />
+                <p class="social-text">或使用其他平台帳號登入</p>
+                <div class="social-media">
+                  <a href="#" class="social-icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-icon twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-icon google">
+                    <i class="fab fa-google"></i>
+                  </a>
+                </div>
+              </form>
+
+              <form action="" class="sign-up-form">
+                <h2 class="login_title">註冊</h2>
+                <div class="input-field">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="會員帳號" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-envelope"></i>
+                  <input type="text" placeholder="信箱" />
+                </div>
+                <div class="input-field">
+                  <i class="fas fa-lock"></i>
+                  <input type="password" placeholder="密碼" />
+                </div>
+                <input type="submit" value="註冊" class="login_btn solid" />
+                <p class="social-text">或使用其他平台帳號註冊</p>
+                <div class="social-media">
+                  <a href="#" class="social-icon facebook">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#" class="social-icon twitter">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="social-icon google">
+                    <i class="fab fa-google"></i>
+                  </a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="login_panels-container">
+            <div class="panel left-panel">
+              <div class="panel_content">
+                <h3>第一次光顧？</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                  blanditiis quaerat molestias.
+                </p>
+                <button class="login_btn transparent" id="sign-up-btn">
+                  註冊
+                </button>
+              </div>
+              <img src="img/cooking_signin.svg" alt="" class="panel_img" />
+            </div>
+            <div class="panel right-panel">
+              <div class="panel_content">
+                <h3>已經來過？</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda exercitationem suscipit incidunt.
+                </p>
+                <button class="login_btn transparent" id="sign-in-btn">
+                  登入
+                </button>
+              </div>
+              <img src="img/Chef_login.svg" alt="" class="panel_img" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer_info">
+          <h3>關於 六角西餐廳</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et
+            necessitatibus facilis excepturi modi cumque, voluptatum earum
+            perferendis repudiandae. Tempora, natus.
+          </p>
+        </div>
+        <div class="footer_info">
+          <h3>聯絡方式</h3>
+          <ul>
+            <li>高雄市中正五路到底</li>
+            <li><a href="tel:+886 123 456">+886 123 456</a></li>
+            <li>
+              <a href="mailto:service@hexschool.com">service@hexschool.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_title">
+          <h2>六角西餐廳</h2>
+          <ul class="footer_btn-list">
+            <li>
+              <a href="#"><i class="scale fab fa-google-plus-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="scale fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="scale fab fa-facebook-square"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
