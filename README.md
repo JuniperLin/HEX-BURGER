@@ -1,1 +1,1 @@
-https://juniperlin.github.io/HEX-FOOD/
+https://juniperlin.github.io/HEX-BURGER/
