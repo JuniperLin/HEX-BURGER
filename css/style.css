@@ -1207,7 +1207,7 @@ button {
 .search-icon {
   position: absolute;
   width: 34px;
-  height: 34px;
+  height: 100%;
   background-color: #3d1101;
   top: 0;
   right: -8px;
@@ -1349,13 +1349,14 @@ button {
   }
   .search-bar {
     width: 100%;
-    padding-bottom: 20px;
+    padding: 0;
+    margin-bottom: 20px;
   }
   .search-bar input {
     width: 98%;
   }
   .search-icon {
-    right: 2px;
+    right: 0;
   }
   .checkout-list {
     justify-content: flex-end;
